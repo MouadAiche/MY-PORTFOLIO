@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#f8fbff" />
+  <title>Mouad Aiche — Web Developer</title>
+  <meta name="description" content="Portfolio of Mouad Aiche, web developer building modern, fast and user-friendly websites." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="site-shell">
+    <header class="site-header">
+      <a href="#home" class="brand" aria-label="Go to home">
+        <span class="brand-mark"><span>M</span><span>A</span></span>
+        <span class="brand-divider"></span>
+        <span class="brand-name">Mouad Aiche</span>
+      </a>
+
+      <nav class="desktop-nav" aria-label="Primary navigation">
+        <a class="nav-link active" href="#home">Home</a>
+        <a class="nav-link" href="#about">About</a>
+        <a class="nav-link" href="#projects">Projects</a>
+        <a class="nav-link" href="#skills">Skills</a>
+        <a class="nav-link" href="#contact">Contact</a>
+      </nav>
+
+      <a class="talk-btn desktop-talk" href="#contact">Let's Talk <span>↗</span></a>
+
+      <button class="menu-btn" id="menuBtn" type="button" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </header>
+
+    <main>
+      <section class="hero section" id="home">
+        <div class="hero-copy">
+          <p class="eyebrow">HELLO, I'M MOUAD</p>
+          <h1>I BUILD MODERN <span>WEB EXPERIENCES</span></h1>
+          <p class="hero-text">
+            I'm a passionate web developer who helps businesses turn their ideas into modern,
+            fast and effective websites.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#projects">View My Work <span>↗</span></a>
+            <a class="btn btn-secondary" href="#contact">Contact Me</a>
+          </div>
+
+          <div class="social-block">
+            <p>Follow Me</p>
+            <div class="socials">
+              <a href="#" aria-label="GitHub">GH</a>
+              <a href="#" aria-label="LinkedIn">in</a>
+              <a href="#" aria-label="Instagram">◎</a>
+              <a href="mailto:mouad.aiche.dev@gmail.com" aria-label="Email">✉</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="soft-orb"></div>
+          <p class="doodle">Let's<br>Build Something<br>Amazing <span>↙</span></p>
+          <img src="assets/mouad-portrait.png" alt="Mouad Aiche" />
+        </div>
+
+        <div class="stats">
+          <article><strong>50+</strong><span>Projects<br>Completed</span></article>
+          <article><strong>98%</strong><span>Client<br>Satisfaction</span></article>
+          <article><strong>3+</strong><span>Years of<br>Experience</span></article>
+        </div>
+      </section>
+
+      <section class="section about" id="about">
+        <div class="section-heading">
+          <p class="eyebrow">ABOUT ME</p>
+          <h2>Turning Ideas Into <span>Real Solutions</span></h2>
+          <p>
+            I'm Mouad, a web developer focused on creating modern, user-friendly and high-performing
+            websites. I enjoy solving problems, learning new technologies, and helping businesses
+            build stronger online experiences.
+          </p>
+        </div>
+
+        <div class="about-grid">
+          <article class="info-card"><div class="icon">🎓</div><h3>Education</h3><p>Computer Science<br>Always learning, always growing.</p></article>
+          <article class="info-card"><div class="icon">🎯</div><h3>My Focus</h3><p>Fast, modern, responsive and user-friendly websites.</p></article>
+          <article class="info-card"><div class="icon">♡</div><h3>What I Love</h3><p>Clean design, solving problems and creating real value.</p></article>
+          <article class="info-card"><div class="icon">☕</div><h3>Fun Fact</h3><p>Good coffee fuels great code.</p></article>
+        </div>
+
+        <div class="story-panel">
+          <div>
+            <p class="eyebrow">MY STORY</p>
+            <h3>A Bit More About Me</h3>
+            <p>
+              My journey into web development started with curiosity. I was fascinated by how websites
+              work and how a few lines of code can create something useful and beautiful.
+            </p>
+            <p>
+              Over time, I turned that curiosity into a practical skill set and now build clean,
+              responsive experiences that help businesses and individuals stand out online.
+            </p>
+          </div>
+
+          <div class="timeline">
+            <div><b>2021</b><span>Started learning web development</span></div>
+            <div><b>2022</b><span>Built my first real project</span></div>
+            <div><b>2023</b><span>Worked with clients</span></div>
+            <div><b>2024</b><span>Expanded into modern tools and frameworks</span></div>
+            <div><b>Today</b><span>Still learning, building and improving</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section projects" id="projects">
+        <div class="section-heading">
+          <p class="eyebrow">MY WORK</p>
+          <h2>Featured <span>Projects</span></h2>
+          <p>Selected projects showing responsive design, modern interfaces and practical business solutions.</p>
+        </div>
+
+        <div class="filters" aria-label="Project filters">
+          <button class="filter active" data-filter="all">All</button>
+          <button class="filter" data-filter="website">Websites</button>
+          <button class="filter" data-filter="ecommerce">E-commerce</button>
+          <button class="filter" data-filter="webapp">Web Apps</button>
+        </div>
+
+        <div class="projects-grid">
+          <article class="project-card" data-category="ecommerce website">
+            <div class="project-shot shot-dark">
+              <div class="mock-laptop"><div class="mock-screen"><span>LAZLO</span><b>Next Gen<br>Laptops</b></div></div>
+            </div>
+            <div class="project-body">
+              <h3>Lazlo — Laptop Store</h3>
+              <p>Modern laptop store with categories, filters and responsive product pages.</p>
+              <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Eleventy</span></div>
+              <a href="#">View Project ↗</a>
+            </div>
+          </article>
+
+          <article class="project-card" data-category="website webapp">
+            <div class="project-shot shot-light"><div class="car-shape">🚙</div><strong>Find Your<br>Perfect Ride</strong></div>
+            <div class="project-body">
+              <h3>Car Rental Platform</h3>
+              <p>Car rental experience with filters, availability and a clean booking flow.</p>
+              <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Booking</span></div>
+              <a href="#">View Project ↗</a>
+            </div>
+          </article>
+
+          <article class="project-card" data-category="webapp">
+            <div class="project-shot dashboard-shot">
+              <div class="mini-sidebar"></div>
+              <div class="chart-bars"><i></i><i></i><i></i><i></i><i></i></div>
+            </div>
+            <div class="project-body">
+              <h3>Admin Dashboard</h3>
+              <p>A modern dashboard for products, orders, analytics and user management.</p>
+              <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Charts</span></div>
+              <a href="#">View Project ↗</a>
+            </div>
+          </article>
+
+          <article class="project-card" data-category="website">
+            <div class="project-shot shot-light accessory-shot">⌚<strong>Modern Accessories</strong></div>
+            <div class="project-body">
+              <h3>Brand Landing Page</h3>
+              <p>A focused landing page built to present products with a premium visual style.</p>
+              <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+              <a href="#">View Project ↗</a>
+            </div>
+          </article>
+
+          <article class="project-card" data-category="webapp">
+            <div class="project-shot task-shot"><div>✓ Task Manager</div><div>Today</div><div>Progress</div></div>
+            <div class="project-body">
+              <h3>Task Manager</h3>
+              <p>A productivity app to organize tasks, track progress and stay focused.</p>
+              <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Local Storage</span></div>
+              <a href="#">View Project ↗</a>
+            </div>
+          </article>
+
+          <article class="project-card" data-category="website">
+            <div class="project-shot portfolio-shot"><b>DEVELOPER</b><img src="assets/mouad-portrait.png" alt=""></div>
+            <div class="project-body">
+              <h3>My Portfolio</h3>
+              <p>A personal portfolio with responsive layouts, interactions and polished typography.</p>
+              <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Responsive</span></div>
+              <a href="#home">View Project ↗</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section skills" id="skills">
+        <div class="skills-intro">
+          <div class="section-heading">
+            <p class="eyebrow">MY SKILLS</p>
+            <h2>Tools & Technologies <span>I Work With</span></h2>
+            <p>I use modern technologies to build fast, scalable and user-friendly web experiences.</p>
+          </div>
+          <img src="assets/mouad-portrait.png" alt="" />
+        </div>
+
+        <div class="skill-grid">
+          <article class="skill-card">
+            <div class="skill-title"><span>▣</span><div><h3>Frontend Development</h3><p>Responsive and interactive interfaces.</p></div></div>
+            <div class="skill-list">
+              <div><span>HTML</span><i><b style="width:95%"></b></i><em>95%</em></div>
+              <div><span>CSS</span><i><b style="width:90%"></b></i><em>90%</em></div>
+              <div><span>JavaScript</span><i><b style="width:85%"></b></i><em>85%</em></div>
+              <div><span>Responsive Design</span><i><b style="width:92%"></b></i><em>92%</em></div>
+            </div>
+          </article>
+
+          <article class="skill-card">
+            <div class="skill-title"><span>⚙</span><div><h3>Tools & Workflow</h3><p>Tools I use to build and manage projects.</p></div></div>
+            <div class="skill-list">
+              <div><span>Git</span><i><b style="width:90%"></b></i><em>90%</em></div>
+              <div><span>GitHub</span><i><b style="width:92%"></b></i><em>92%</em></div>
+              <div><span>VS Code</span><i><b style="width:95%"></b></i><em>95%</em></div>
+              <div><span>Vite</span><i><b style="width:85%"></b></i><em>85%</em></div>
+            </div>
+          </article>
+
+          <article class="skill-card highlight-card">
+            <div class="skill-title"><span>🎯</span><div><h3>Always Improving</h3><p>Technology evolves, and so do I.</p></div></div>
+            <p>I keep learning better tools, cleaner patterns and stronger ways to build useful products.</p>
+            <a href="#contact" class="btn btn-primary">Let's Build Something ↗</a>
+          </article>
+        </div>
+      </section>
+
+      <section class="section contact" id="contact">
+        <div class="section-heading contact-heading">
+          <p class="eyebrow">CONTACT ME</p>
+          <h2>Let's Work <span>Together</span></h2>
+          <p>Have a project in mind, a question, or just want to say hi? I'd love to hear from you.</p>
+        </div>
+
+        <div class="contact-layout">
+          <div class="contact-info">
+            <article><span>✉</span><div><b>Email</b><a href="mailto:mouad.aiche.dev@gmail.com">mouad.aiche.dev@gmail.com</a><small>I usually reply within 24 hours.</small></div></article>
+            <article><span>☎</span><div><b>Phone</b><a href="tel:+212600000000">+212 6 00 00 00 00</a><small>Feel free to call or send a message.</small></div></article>
+            <article><span>●</span><div><b>Location</b><p>Morocco</p><small>Available for remote work worldwide.</small></div></article>
+            <article><span>in</span><div><b>LinkedIn</b><a href="#">linkedin.com/in/mouad-aiche</a><small>Let's connect.</small></div></article>
+          </div>
+
+          <form class="contact-form" id="contactForm">
+            <div class="form-title">
+              <span>➤</span>
+              <div><h3>Send Me a Message</h3><p>Fill out the form and I'll get back to you as soon as possible.</p></div>
+            </div>
+
+            <div class="form-grid">
+              <label>Your Name *<input required type="text" name="name" placeholder="John Doe"></label>
+              <label>Your Email *<input required type="email" name="email" placeholder="john@example.com"></label>
+              <label class="full">Subject *<input required type="text" name="subject" placeholder="What is this about?"></label>
+              <label class="full">Your Message *<textarea required name="message" rows="6" placeholder="Tell me more about your project..."></textarea></label>
+            </div>
+
+            <button class="btn btn-primary form-submit" type="submit">Send Message ↗</button>
+            <p class="form-status" id="formStatus" aria-live="polite"></p>
+          </form>
+        </div>
+
+        <div class="cta-banner">
+          <div><p class="eyebrow">LET'S CREATE</p><h3>Ready to Bring Your Ideas to Life?</h3><p>Whether it's a website, a web application, or a new business idea, I'm open to exciting projects.</p></div>
+          <a href="mailto:mouad.aiche.dev@gmail.com" class="btn btn-secondary">Let's Talk ↗</a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>© <span id="year"></span> Mouad Aiche. All rights reserved.</p>
+      <p>Build. Learn. Improve.</p>
+    </footer>
+  </div>
+
+  <div class="menu-overlay" id="menuOverlay"></div>
+  <aside class="mobile-drawer" id="mobileDrawer" aria-hidden="true">
+    <div class="drawer-top">
+      <button class="close-btn" id="closeMenu" type="button" aria-label="Close menu">×</button>
+      <div class="drawer-brand">
+        <span class="brand-mark large"><span>M</span><span>A</span></span>
+        <h3>Mouad Aiche</h3>
+        <p>Web Developer</p>
+      </div>
+    </div>
+
+    <nav class="drawer-nav" aria-label="Mobile navigation">
+      <a class="drawer-link active" href="#home"><span class="drawer-icon">⌂</span><b>Home</b><span>›</span></a>
+      <a class="drawer-link" href="#about"><span class="drawer-icon">♙</span><b>About</b><span>›</span></a>
+      <a class="drawer-link" href="#projects"><span class="drawer-icon">□</span><b>Projects</b><span>›</span></a>
+      <a class="drawer-link" href="#skills"><span class="drawer-icon">◫</span><b>Skills</b><span>›</span></a>
+      <a class="drawer-link" href="#contact"><span class="drawer-icon">✉</span><b>Contact</b><span>›</span></a>
+    </nav>
+
+    <a href="#contact" class="drawer-talk"><span>◯</span> Let's Talk <span>→</span></a>
+
+    <div class="drawer-socials">
+      <p>Follow Me</p>
+      <div class="socials">
+        <a href="#">GH</a><a href="#">in</a><a href="#">◎</a><a href="mailto:mouad.aiche.dev@gmail.com">✉</a>
+      </div>
+    </div>
+
+    <div class="drawer-settings">
+      <div>
+        <span>◐</span>
+        <b>Dark Mode</b>
+        <button class="theme-toggle" id="themeToggle" type="button" aria-label="Toggle dark mode"><i></i></button>
+      </div>
+      <div>
+        <span>◎</span>
+        <b>Language</b>
+        <button class="language-btn" type="button">EN⌄</button>
+      </div>
+    </div>
+
+    <div class="drawer-footer">
+      <p>© <span id="drawerYear"></span> Mouad Aiche. All rights reserved.</p>
+      <p>Build. Learn. Improve.</p>
+    </div>
+  </aside>
+
+  <script src="script.js"></script>
+</body>
+</html>
